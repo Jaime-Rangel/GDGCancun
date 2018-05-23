@@ -1,14 +1,28 @@
-img {
+/* img {
     max-width: 100%;
     max-height: 100%;
-}
+} */
 
 .panelFotos {
-  width: auto;
-  height: 600px;
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .panelFotos img {
-  width: auto;
-  height: 600px;
+  width: 80%;
+  height: 400px;
+}
+
+.destacado {
+  margin-top: 20px;
+}
+
+.speakers {
+  margin-top: 20px;
+}
+
+.destacado .card .btn {
+  width: 300px;
 }
