@@ -4,23 +4,45 @@
 } */
 
 .panelFotos {
-  width: 90%;
-  height: 400px;
+  width: auto;
+  height: 500px;
   margin: auto;
-  margin-top: 20px;
 }
 
 .panelFotos img {
-  width: 80%;
-  height: 400px;
+  width: auto;
+  height: 500px;
 }
 
-.destacado {
-  margin-top: 20px;
+.destacado .card{
+  background-color: #0097EF;
+}
+
+.destacado h1{
+  color: white;
+}
+
+.destacado h4{
+  color: white;
 }
 
 .speakers {
-  margin-top: 20px;
+  background-color: #F3F5F7;
+}
+
+.speakers .card{
+  background-color: #F3F5F7;
+}
+
+.speakers img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.sponsors img {
+  width: 200px;
+  height: 200px;
 }
 
 .destacado .card .btn {
