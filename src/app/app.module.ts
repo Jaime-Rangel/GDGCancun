@@ -12,6 +12,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CalendarComponent } from './components/calendar/calendar.component';
     HomeComponent,
     ContactComponent,
     CalendarComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
