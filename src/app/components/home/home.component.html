@@ -1,4 +1,13 @@
 
+<script>
+   jQuery(document).ready(function( $ ) {
+       $('.counter').counterUp({
+           delay: 10,
+           time: 1000
+       });
+   });
+ </script>
+
 <section class="panelFotos">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -71,39 +80,45 @@
       <div class="col-sm">
         <table>
           <tr>
-            <h2>Counter</h2>
+            <h1><span class="counter" style="display: inline-block; width: 32%">7</span></h1>
           </tr>
           <tr>
             <img class="centerImg" src="../assets/icons/group.png">
           </tr>
           <tr>
             <h3>Speakers</h3>
+            <br>
+            <h4>Tenemos convocatoria abierta para realizar charlas o talleres</h4>
           </tr>
         </table>
       </div>
       <div class="col-sm">
         <table>
           <tr>
-            <h2>Counter</h2>
+            <h1><span class="counter" style="display: inline-block; width: 32%">302</span></h1>
           </tr>
           <tr>
             <img class="centerImg" src="../assets/icons/user.png">
           </tr>
           <tr>
             <h3>Miembros</h3>
+            <br>
+            <h4>Personas con interés en Desarrollo, Marketing Digital, posicionamiento Web y herramientas de Google</h4>
           </tr>
         </table>
       </div>
       <div class="col-sm">
           <table>
             <tr>
-              <h2>Counter</h2>
+              <h1><span class="counter" style="display: inline-block; width: 32%">8</span></h1>
             </tr>
             <tr>
               <img class="centerImg" src="../assets/icons/classroom.png">
             </tr>
             <tr>
               <h3>Meetups</h3>
+              <br>
+              <h4>Este año hemos arrancado con más miembros y cada vez mas meetups</h4>
             </tr>
           </table>
           <!-- <p class="count-text ">SomeText GoesHere</p> -->
@@ -181,3 +196,10 @@
     </div>
   </div>
 </section>
+
+<!-- <section class="cuentaRedes">
+  <div>
+         <span class="counter" style="display: inline-block; width: 32%">1.9583</span>
+         <span class="counter" style="display: inline-block; width: 32%">12345</span>
+     </div>
+</section> -->

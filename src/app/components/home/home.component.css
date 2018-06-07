@@ -60,6 +60,9 @@
 
 .somosRed {
   background-color: #E9ECEF;
+  text-align: justify;
+  text-justify: inter-word;
+
 }
 
 .separadorVertical {
