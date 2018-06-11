@@ -8,7 +8,7 @@ const app_routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'calendar', component: CalendarComponent },
 
-  { path: '**', pathMatch: 'full', redirectTo: '' }
+  { path: '**', pathMatch: 'full', redirectTo: '/home' }
 ];
 
 export const app_routing = RouterModule.forRoot(app_routes);
