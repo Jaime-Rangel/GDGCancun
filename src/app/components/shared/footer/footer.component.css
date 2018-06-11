@@ -1,0 +1,19 @@
+.piePagina {
+  background-color: #3D4550;
+  color:white;
+}
+
+.piePagina a {
+  color:white;
+}
+
+.piePagina .container a:link{
+  color:white;
+}
+
+hr {
+  height: 1px;
+  color: #123455;
+  background-color: white;
+  border: none;
+}
